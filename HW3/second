@@ -1,0 +1,29 @@
+real    0m0.000s
+user    0m0.000s
+sys     0m0.000s
+
+ 1020  java cs455.scaling.client.Client clarks-fork 5000
+ 1021  clear
+ 1022  java cs455.scaling.client.Client clarks-fork 5000
+ 1023  cd cs253/
+ 1024  ls
+ 1025  cd Spring_17/
+ 1026  ls
+ 1027  clear
+ 1028  ls
+ 1029  mkdir HW3
+ 1030  cd HW3/
+ 1031  ls
+ 1032  mkdir CorrectOutput
+ 1033  cd CorrectOutput/
+ 1034  ls
+ 1035  clear
+ 1036  ls
+ 1037  g++ -Wall opts.cc
+ 1038  vi a
+ 1039  ls
+ 1040  vi first
+ 1041  time
+ 1042  date
+ 1043  vi second
+ 1044  history

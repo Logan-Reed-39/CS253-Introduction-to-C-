@@ -1,0 +1,4 @@
+This is a test file for use in my program. There are: 1 2 3 4 5 numbers, who knows how many control characters there are; 
+let alone spaces. Let's try it.
+Control test	Control test
+Control
