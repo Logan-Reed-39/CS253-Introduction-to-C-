@@ -1,0 +1,16 @@
+    #! /bin/bash
+
+    old_suffix=$1
+    new_suffix=$2
+    
+    if{{$# != 2}}
+        then
+            echo "Incorrect amount of arguments"
+        exit
+    fi
+    for file in *.$old_suffix
+    do
+        mv "$file" "${file%.c}.cpp"
+        new_name=${file%.*}.$new_suffix
+        echo Rename $file to $new_name
+    done
